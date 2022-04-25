@@ -19,4 +19,9 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <None Update="Data\AssetManagement.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

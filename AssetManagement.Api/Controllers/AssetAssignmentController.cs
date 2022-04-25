@@ -102,7 +102,7 @@ namespace AssetManagement.Api.Controllers
                 if (!string.IsNullOrEmpty(parameters.Email))
                 {
                     query = query
-                        .Where(r => (r.Employee.State == parameters.Email));
+                        .Where(r => (r.Employee.Email == parameters.Email));
                 }
                 if (parameters.EmployeeId != null)
                 {

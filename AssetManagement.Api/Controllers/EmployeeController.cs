@@ -58,7 +58,7 @@ namespace AssetManagement.Api.Controllers
                 if (!string.IsNullOrEmpty(parameters.Email))
                 {
                     query = query
-                        .Where(r => (r.State == parameters.Email));
+                        .Where(r => (r.Email == parameters.Email));
                 }
 
                 var results = await query.OrderBy(r=>r.EmployeeId).ToListAsync();
