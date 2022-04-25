@@ -1,2 +1,2 @@
 # assetmanagementapi
-Asset Manager WebApi written in ASP.NET Core 3.x 
+Asset Manager WebApi written in ASP.NET Core 3.x for demonstration purposes.
